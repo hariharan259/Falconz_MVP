@@ -1,0 +1,11 @@
+# Normalize line endings to LF on all operating systems
+* text=auto eol=lf
+
+# Explicitly set bash scripts and Dockerfiles to use LF
+*.sh text eol=lf
+Dockerfile text eol=lf
+Makefile text eol=lf
+
+# Windows specific files can retain CRLF
+*.bat text eol=crlf
+*.cmd text eol=crlf
