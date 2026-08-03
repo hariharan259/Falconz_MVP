@@ -1,0 +1,41 @@
+# Node
+node_modules/
+dist/
+build/
+.npm/
+.yarn/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+env/
+venv/
+ENV/
+.env
+
+# Go
+bin/
+pkg/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDEs
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Docker
+.docker/
+
+# Environment Variables
+.env
+.env.local
+
+# Logs
+logs/
+*.log
